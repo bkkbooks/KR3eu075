@@ -1,0 +1,64 @@
+canonical_identifier: bkk:krp/KR3eu075/jc/v1
+canonical_location: https://kanripo.org/bkk/KR3eu075/jc/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 中國藥一百種之化學實驗
+  identifiers:
+    krp: KR3eu075
+  tags:
+    kr-categories: KR3eu
+    tls-dates: dat02200
+  source:
+    repository: tls-texts
+    path: data/tls/KR3eu075.xml
+  edition:
+    short: jc
+assets:
+  parts:
+  - {seq: 0, filename: KR3eu075_000-jc.yaml, hash: 'sha256:5208776c5dc256e2b87dfa8037ec3014b77b54c5c81667b50f9cf98f866af35f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3eu075_000-jc.markers.yaml, hash: 'sha256:70881b54459032bb6a8fda58bed91de8b48aadcec9d51d120331da8a780abfe7'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3eu075_jc_000-d2.h1s1
+    span:
+    - body
+    - 0
+    - 140
+  label: 試驗方法
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3eu075_jc_000-d3.h1s1
+    span:
+    - body
+    - 140
+    - 143
+  label: 第一表
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3eu075_jc_000-d4.h1s1
+    span:
+    - body
+    - 143
+    - 146
+  label: 第二表
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3eu075_jc_000-d5.h1s1
+    span:
+    - body
+    - 146
+    - 903
+  label: 第三表
+  type: section
+  level: 1
+hash: sha256:7f9075ee045a1e07ae03c17d94cfeb7f1dd07419b48128d436269af7bf108d87
